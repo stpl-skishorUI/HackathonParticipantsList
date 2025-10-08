@@ -23,7 +23,11 @@ function displayProfiles(devList) {
   container.innerHTML = '';
 
   if (devList.length === 0) {
-    container.innerHTML = `<p>No developers found.</p>`;
+    container.innerHTML = `
+    <div class="card card-body p-0 border-0 rounded-4">
+          <img src="images/not-found.svg" class="img-fluid mx-auto rounded-4">
+        </div>
+    `;
     return;
   }
 
