@@ -1,0 +1,11 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "city": "Pune",
+    "email": "john@example.com",
+    "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ]
+}
