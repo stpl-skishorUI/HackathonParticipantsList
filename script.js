@@ -42,7 +42,7 @@ function displayProfiles(devList) {
                         <div class="profile-name">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                <img src="${dev.Photo}" class="profile-photo" alt="${dev.FullName}" onerror="this.src='images/placeholder.jpg'"/>
+                                <img src="${dev.Photo}" class="profile-photo" alt="${dev.FullName}"/>
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <span class="profile-badge"><i class="fa-solid fa-code"></i> ${dev.CurrentDomain}</span>
