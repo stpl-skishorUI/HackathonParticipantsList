@@ -94,7 +94,7 @@ function displayProfiles(devList) {
                                 </div>
                             </li>
                             <li class="list-group-item border-bottom-0 py-1">
-                                <div class="d-flex align-items-center">
+                                <div class="d-flex">
                                     <div class="flex-shrink-0">
                                         <i class="fa-solid fa-code"></i>
                                     </div>
@@ -107,7 +107,7 @@ function displayProfiles(devList) {
                                 </div>
                             </li>
                             <li class="list-group-item border-bottom-0 py-1">
-                                <div class="d-flex align-items-center">
+                                <div class="d-flex">
                                     <div class="flex-shrink-0">
                                         <i class="fa-solid fa-laptop-code"></i>
                                     </div>
@@ -120,7 +120,7 @@ function displayProfiles(devList) {
                                 </div>
                             </li>
                             <li class="list-group-item border-bottom-0 py-1">
-                                <div class="d-flex align-items-center">
+                                <div class="d-flex">
                                     <div class="flex-shrink-0">
                                         <i class="fa-solid fa-terminal"></i>
                                     </div>
