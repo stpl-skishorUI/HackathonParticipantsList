@@ -104,8 +104,6 @@ body {
 .profile-badge {
     font-size: 0.8rem;
     font-weight: 600;
-    color: #007315;
-    background-color: rgba(152, 255, 149, 0.75);
     padding: 4px 10px;
     border-radius: 12px;
     display: inline-block;

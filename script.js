@@ -2,40 +2,54 @@ let developers = [];
 
 // Load data on page load
 window.addEventListener('DOMContentLoaded', () => {
-  fetch('data.json')
-    .then(res => res.json())
-    .then(data => {
-      developers = data;
-      populateDomainFilter(data);
-      displayProfiles(data);
-    })
-    .catch(err => console.error('Error loading JSON:', err));
+    fetch('data.json')
+        .then(res => res.json())
+        .then(data => {
+            developers = data;
+            populateDomainFilter(data);
+            displayProfiles(data);
+        })
+        .catch(err => console.error('Error loading JSON:', err));
 
-  document.getElementById('searchBox').addEventListener('input', applyFilters);
-  document.getElementById('domainFilter').addEventListener('change', applyFilters);
+    document.getElementById('searchBox').addEventListener('input', applyFilters);
+    document.getElementById('domainFilter').addEventListener('change', applyFilters);
 });
+
+/**
+ * Get badge class based on domain
+ */
+function getBadgeClass(domain) {
+    if (domain.includes('Functional (Developers)')) {
+        return 'bg-primary-subtle text-primary';
+    } else if (domain.includes('Non-Functional (Support Team / Business)')) {
+        return 'bg-danger-subtle text-danger';
+    } else {
+        return 'bg-success-subtle text-success'; // fallback for any other domains
+    }
+}
 
 /**
  * Display developer profiles
  */
 function displayProfiles(devList) {
-  const container = document.getElementById('profilesContainer');
-  container.innerHTML = '';
+    const container = document.getElementById('profilesContainer');
+    container.innerHTML = '';
 
-  if (devList.length === 0) {
-    container.innerHTML = `
+    if (devList.length === 0) {
+        container.innerHTML = `
     <div class="card card-body p-0 border-0 rounded-4">
           <img src="images/not-found.svg" class="img-fluid mx-auto rounded-4">
         </div>
     `;
-    return;
-  }
+        return;
+    }
 
-  devList.forEach(dev => {
-    const card = document.createElement('div');
-    card.classList.add('profile-card');
+    devList.forEach(dev => {
+        const card = document.createElement('div');
+        card.classList.add('profile-card');
+        const badgeClass = getBadgeClass(dev.CurrentDomain);
 
-    card.innerHTML = `
+        card.innerHTML = `
                     <div class="position-relative">
                         <img src="images/bg.jpg" class="card-img-top rounded-4 rounded-bottom-0" alt="...">
                         <div class="experience">
@@ -46,10 +60,13 @@ function displayProfiles(devList) {
                         <div class="profile-name">
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
-                                <img src="${dev.Photo}" class="profile-photo" alt="${dev.FullName}"/>
+                                  <img src="${dev.Photo}" class="profile-photo" alt="${dev.FullName}"/>
                                 </div>
                                 <div class="flex-grow-1 ms-3">
-                                    <span class="profile-badge"><i class="fa-solid fa-code"></i> ${dev.CurrentDomain}</span>
+                                    <span class="profile-badge ${badgeClass}">
+                                      <i class="fa-solid fa-code"></i>
+                                        ${dev.CurrentDomain}
+                                    </span>
                                     <h3 class="name">${dev.FullName}</h3>
                                     <div class="designation">${dev.CurrentDesignation}</div>
                                 </div>
@@ -140,45 +157,45 @@ function displayProfiles(devList) {
                         </div>
                     </div>`;
 
-    container.appendChild(card);
-  });
+        container.appendChild(card);
+    });
 }
 
 /**
  * Apply filters (search + domain)
  */
 function applyFilters() {
-  const searchTerm = document.getElementById('searchBox').value.toLowerCase();
-  const selectedDomain = document.getElementById('domainFilter').value.toLowerCase();
+    const searchTerm = document.getElementById('searchBox').value.toLowerCase();
+    const selectedDomain = document.getElementById('domainFilter').value.toLowerCase();
 
-  const filtered = developers.filter(dev => {
-    const matchesSearch =
-      dev.FullName.toLowerCase().includes(searchTerm) ||
-      dev.PreferredRole.toLowerCase().includes(searchTerm) ||
-      dev.PrimarySkills.toLowerCase().includes(searchTerm) ||
-      dev.SecondarySkills.toLowerCase().includes(searchTerm);
+    const filtered = developers.filter(dev => {
+        const matchesSearch =
+            dev.FullName.toLowerCase().includes(searchTerm) ||
+            dev.PreferredRole.toLowerCase().includes(searchTerm) ||
+            dev.PrimarySkills.toLowerCase().includes(searchTerm) ||
+            dev.SecondarySkills.toLowerCase().includes(searchTerm);
 
-    const matchesDomain =
-      selectedDomain === '' ||
-      dev.CurrentDomain.toLowerCase() === selectedDomain;
+        const matchesDomain =
+            selectedDomain === '' ||
+            dev.CurrentDomain.toLowerCase() === selectedDomain;
 
-    return matchesSearch && matchesDomain;
-  });
+        return matchesSearch && matchesDomain;
+    });
 
-  displayProfiles(filtered);
+    displayProfiles(filtered);
 }
 
 /**
  * Populate domain dropdown dynamically
  */
 function populateDomainFilter(data) {
-  const domainSelect = document.getElementById('domainFilter');
-  const domains = [...new Set(data.map(d => d.CurrentDomain))];
+    const domainSelect = document.getElementById('domainFilter');
+    const domains = [...new Set(data.map(d => d.CurrentDomain))];
 
-  domains.forEach(domain => {
-    const option = document.createElement('option');
-    option.value = domain;
-    option.textContent = domain;
-    domainSelect.appendChild(option);
-  });
+    domains.forEach(domain => {
+        const option = document.createElement('option');
+        option.value = domain;
+        option.textContent = domain;
+        domainSelect.appendChild(option);
+    });
 }
