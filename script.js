@@ -100,7 +100,7 @@ function displayProfiles(devList) {
                                     </div>
                                     <div class="flex-grow-1 ms-3">
                                         <div class="label">Primary Skills :</div>
-                                        <div class="data">
+                                        <div class="data text-break">
                                             ${dev.PrimarySkills}
                                         </div>
                                     </div>
