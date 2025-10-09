@@ -306,8 +306,8 @@
     {
         "FullName": "Pratiksha Pratap Chavan",
         "EmailID": "pratiksha.chavan@shauryatechnosoft.com",
-        "CurrentDesignation": ".NET developer",
-        "TotalExperience": 3.9,
+        "CurrentDesignation": "Software developer",
+        "TotalExperience": 3.10,
         "Photo": "Photos/PratikshaChavan.jfif",
         "CurrentDomain": "Functional (Developers)",
         "KeySkills": "Go, NodeJS, ASP.NET Core, etc",
@@ -1197,6 +1197,22 @@
         "SecondarySkills": "Git",
         "PreferredDomain": "AI & Frontend",
         "PreviousHackathonExperience": "none",
+        "BasePrice": 50000
+    },
+    {
+        "FullName": "Snehal Nikhil Shinde",
+        "EmailID": "snehal.shinde@shauryatechnosoft.com",
+        "CurrentDesignation": "Associate Software Developer",
+        "TotalExperience": 1,
+        "Photo": "Photos/SnehalShinde.jpg",
+        "CurrentDomain": "Functional (Developers)",
+        "KeySkills": "Go, NodeJS, ASP.NET Core, etc",
+        "Qualification": "MCA",
+        "PreferredRole": "Software Developer",
+        "PrimarySkills": ".NetCore C#,SQL Server,MongoDB",
+        "SecondarySkills": "NodeJs,PostgresSql",
+        "PreferredDomain": "Backend Developer",
+        "PreviousHackathonExperience": "N/A",
         "BasePrice": 50000
     }
 ]
