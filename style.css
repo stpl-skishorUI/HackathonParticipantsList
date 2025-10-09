@@ -31,8 +31,9 @@ body {
 
 .profile-card .name {
     color: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
     text-transform: capitalize;
+    font-size: 1.4rem;
 }
 
 .profile-card .card-body {
@@ -46,8 +47,8 @@ body {
 }
 
 .profile-photo {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     object-fit: cover;
     background-color: #f8f9fa;
@@ -111,7 +112,7 @@ body {
 }
 
 .designation {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     color: #555;
     font-weight: 500;
     margin-bottom: 0.15rem;

@@ -62,7 +62,7 @@ function displayProfiles(devList) {
                                 <div class="flex-shrink-0">
                                   <img src="${dev.Photo}" class="profile-photo" alt="${dev.FullName}"/>
                                 </div>
-                                <div class="flex-grow-1 ms-3">
+                                <div class="flex-grow-1 ms-3 py-2">
                                     <span class="profile-badge ${badgeClass}">
                                       <i class="fa-solid fa-code"></i>
                                         ${dev.CurrentDomain}
