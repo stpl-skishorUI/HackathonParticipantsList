@@ -1094,7 +1094,7 @@
         "TotalExperience": 6,
         "Photo": "Photos/VrushaliPatil.jpg",
         "CurrentDomain": "Functional (Developers)",
-        "KeySkills": "Cloud / DevOps, SQL SERVER ,ASP.NET CORE, C# ,  JAVASCRIPT, MVC, EF, WEB APIS, REST APIS,",
+        "KeySkills": "Cloud / DevOps, SQL SERVER ,ASP.NET CORE, C#, JAVASCRIPT, MVC, EF, WEB APIS, REST APIS,",
         "Qualification": "M.C.A.",
         "PreferredRole": ".NET BACKEND DEVELOPER",
         "PrimarySkills": "ASP.NET CORE, C# ,  JAVASCRIPT, MVC, EF, WEB APIS, REST APIS,",
@@ -1188,7 +1188,7 @@
         "EmailID": "vaibhav.dokhale@shauryatechnosoft.com",
         "CurrentDesignation": "Data Analyst",
         "TotalExperience": 5.9,
-        "Photo": "Photos/VaibhavDokhale.PNG",
+        "Photo": "Photos/VaibhavDokhale.png",
         "CurrentDomain": "Non-Functional (Support Team / Business)",
         "KeySkills": "Business Analysis / Research",
         "Qualification": "BBA",
@@ -1198,5 +1198,21 @@
         "PreferredDomain": "Business Analysis",
         "PreviousHackathonExperience": "N/A",
         "BasePrice": 50000
+    },
+    {
+        "FullName": "Anjali Shivnath Jadhav",
+        "EmailID": "intern.6@shauryatechnosoft.com",
+        "CurrentDesignation": "Devops Intern",
+        "TotalExperience": 0.3,
+        "Photo": "Photos/AnjaliJadhav.jpeg",
+        "CurrentDomain": "Functional (Developers)",
+        "KeySkills": "Cloud / DevOps",
+        "Qualification": "B.Tech in Computer Science Engineering",
+        "PreferredRole": "⚔️♾️DevOps Warriors♾️⚔️, ⚙️🚀Ship Code Fast, Sleep Well.🌙💤",
+        "PrimarySkills": "Devops, Cloud, CICD, Linux",
+        "SecondarySkills": "K8s,Docker,Terraform,git,Ansible,Argocd,Jenkins,Github Actions",
+        "PreferredDomain": "Devops,Cloud Computing, Linux",
+        "PreviousHackathonExperience": "Last time i attended hackathon in my college and we won the second price for out IOT project.It was a great learning experience with lots of coding. We worked as a team and built something in a short time. Overall, it was fun and full of new ideas.",
+        "BasePrice": 25000
     }
 ]

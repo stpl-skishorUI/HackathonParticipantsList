@@ -80,6 +80,22 @@ body {
     }
 }
 
+.baseprice {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: rgba(97, 97, 97, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(107, 107, 107, 0.3);
+    padding: 2px 15px;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--bs-dark);
+}
+
 .experience {
     position: absolute;
     top: 10px;

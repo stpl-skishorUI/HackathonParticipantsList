@@ -52,12 +52,16 @@ function displayProfiles(devList) {
         card.innerHTML = `
                     <div class="position-relative">
                         <img src="images/bg.jpg" class="card-img-top rounded-4 rounded-bottom-0" alt="...">
+                        <div class="baseprice">
+                            ${dev.BasePrice} <small>pts.</small>
+                        </div>
                         <div class="experience">
                             ${dev.TotalExperience} Years Experience
                         </div>
                     </div>
                     <div class="card-body">
                         <div class="profile-name">
+                            
                             <div class="d-flex">
                                 <div class="flex-shrink-0">
                                   <img src="${dev.Photo}" class="profile-photo" alt="${dev.FullName}"/>
