@@ -576,22 +576,6 @@
         "BasePrice": 50000
     },
     {
-        "FullName": "Ajinkya Vikas Mali",
-        "EmailID": "ajinkyamali007@gmail.com",
-        "CurrentDesignation": "AI/ML intern",
-        "TotalExperience": 0,
-        "Photo": "Photos/AjinkyaMali.jpg",
-        "CurrentDomain": "Functional (Developers)",
-        "KeySkills": "AI / ML",
-        "Qualification": "B.Tech in Computer Science",
-        "PreferredRole": "AI/ML",
-        "PrimarySkills": "Python , SQL , AI/ML, DRONE Technology , Linux ",
-        "SecondarySkills": "Django, flask ,Cloud , Tableau ",
-        "PreferredDomain": "AI",
-        "PreviousHackathonExperience": "NA",
-        "BasePrice": 25000
-    },
-    {
         "FullName": "jivraj kashid",
         "EmailID": "intern.1@shauryatechnosoft.com",
         "CurrentDesignation": "INTERN1",
@@ -619,22 +603,6 @@
         "PreferredRole": "Intern 13",
         "PrimarySkills": "Python, SQL, AI",
         "SecondarySkills": "Power BI",
-        "PreferredDomain": "AI",
-        "PreviousHackathonExperience": "NA",
-        "BasePrice": 25000
-    },
-    {
-        "FullName": "Pranav Mane ",
-        "EmailID": "pranavmane102002@gmail.com",
-        "CurrentDesignation": "Backend Developer ",
-        "TotalExperience": 0,
-        "Photo": "Photos/PranavMane.jpg",
-        "CurrentDomain": "Functional (Developers)",
-        "KeySkills": "Angular, React, JavaScript, ASP.NET, Etc",
-        "Qualification": "MCA",
-        "PreferredRole": "Backend Developer ",
-        "PrimarySkills": "Javascript, NodeJs,ReactJs, MySQL ",
-        "SecondarySkills": "Git",
         "PreferredDomain": "AI",
         "PreviousHackathonExperience": "NA",
         "BasePrice": 25000
@@ -1212,6 +1180,22 @@
         "PrimarySkills": ".NetCore C#,SQL Server,MongoDB",
         "SecondarySkills": "NodeJs,PostgresSql",
         "PreferredDomain": "Backend Developer",
+        "PreviousHackathonExperience": "N/A",
+        "BasePrice": 50000
+    },
+    {
+        "FullName": "Vaibhav Dokhale",
+        "EmailID": "vaibhav.dokhale@shauryatechnosoft.com",
+        "CurrentDesignation": "Data Analyst",
+        "TotalExperience": 5.9,
+        "Photo": "Photos/VaibhavDokhale.PNG",
+        "CurrentDomain": "Non-Functional (Support Team / Business)",
+        "KeySkills": "Business Analysis / Research",
+        "Qualification": "BBA",
+        "PreferredRole": "Business Analyst",
+        "PrimarySkills": "Data Analysis (Excel & Looker Studio/ Power BI) & Presentation",
+        "SecondarySkills": "Canva, Powerpoint, Looker Studio, Excel, Google Sheets, Figma, Power BI, Problem-Solving.",
+        "PreferredDomain": "Business Analysis",
         "PreviousHackathonExperience": "N/A",
         "BasePrice": 50000
     }
