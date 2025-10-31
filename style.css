@@ -251,9 +251,10 @@ body {
 
 #developer h1 {
     font-weight: 600;
-    font-size: 3.5rem;
-    line-height: 4.3rem;
+    font-size: 3rem;
+    line-height: 4rem;
     color: var(--bs-pink);
+    text-transform: capitalize;
 }
 
 #developer h5 {
@@ -288,9 +289,9 @@ body {
     font-weight: 400;
 }
 
-#developer .navigation-buttons {
+.navigation-buttons {
     position: absolute;
-    bottom: -15px;
+    bottom: 15px;
     width: 100px;
     height: 50px;
     left: 45%;
@@ -301,7 +302,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
-#developer .navigation-buttons .carousel-control-next,
-#developer .navigation-buttons .carousel-control-prev {
+.navigation-buttons .carousel-control-next,
+.navigation-buttons .carousel-control-prev {
     width: 50px;
 }
