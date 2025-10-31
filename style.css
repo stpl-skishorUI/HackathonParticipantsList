@@ -184,3 +184,100 @@ body {
     padding: 10px 15px;
     border-radius: 0.375rem;
 }
+
+.landscape {
+    background-image: url('images/landscape.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#developer .card {
+    border-radius: 15px;
+    backdrop-filter: blur(11px) saturate(200%);
+    -webkit-backdrop-filter: blur(11px) saturate(200%);
+    background-color: rgba(98, 98, 98, 0.65);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+#developer .dev-photo {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#developer .photo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    border-radius: 23px;
+    /* Border thickness */
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.5), #ff990088, #0062ff82, #ff00ff7b);
+    background-size: 300% 300%;
+    animation: gradientMove 4s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* Center in parent */
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#developer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px);
+}
+
+#developer h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 4.3rem;
+    color: var(--bs-pink);
+}
+
+#developer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#developer .badge {
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+#developer .dev-card-section {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+#developer .dev-label {
+    font-size: 1.1rem;
+    margin-bottom: 0.1rem;
+    color: var(--bs-dark);
+}
+
+#developer .dev-skills {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
