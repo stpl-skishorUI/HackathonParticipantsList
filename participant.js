@@ -1,20 +1,20 @@
 window.addEventListener("DOMContentLoaded", () => {
-    fetch("data.json")
-        .then((res) => res.json())
-        .then((data) => populateCarousel(data))
-        .catch((err) => console.error("Error loading JSON:", err));
+  fetch("randomized_sorted_data.json")
+    .then((res) => res.json())
+    .then((data) => populateCarousel(data))
+    .catch((err) => console.error("Error loading JSON:", err));
 });
 
 function populateCarousel(developers) {
-    const carouselInner = document.querySelector(".carousel-inner");
-    carouselInner.innerHTML = ""; // Clear any existing slides
+  const carouselInner = document.querySelector(".carousel-inner");
+  carouselInner.innerHTML = ""; // Clear any existing slides
 
-    developers.forEach((dev, index) => {
-        const item = document.createElement("div");
-        item.classList.add("carousel-item");
-        if (index === 0) item.classList.add("active"); // Make first item active
+  developers.forEach((dev, index) => {
+    const item = document.createElement("div");
+    item.classList.add("carousel-item");
+    if (index === 0) item.classList.add("active"); // Make first item active
 
-        item.innerHTML = `
+    item.innerHTML = `
       <div class="card card-body">
         <div class="row">
           <div class="col-sm-4">
@@ -78,6 +78,6 @@ function populateCarousel(developers) {
       </div>
     `;
 
-        carouselInner.appendChild(item);
-    });
+    carouselInner.appendChild(item);
+  });
 }
