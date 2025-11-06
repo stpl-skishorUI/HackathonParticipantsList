@@ -189,7 +189,7 @@ body {
     background-image: url('images/landscape.jpg');
     height: 100%;
     width: 100%;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -305,4 +305,160 @@ body {
 .navigation-buttons .carousel-control-next,
 .navigation-buttons .carousel-control-prev {
     width: 50px;
+}
+
+.ai-analysis {
+    background-image: url('images/ai-analysis.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.ai-analysis .member-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+
+.time-meeting-schedule {
+    background-image: url('images/ai-analysis.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-size: 0.85rem;
+}
+
+.time-meeting-schedule .card {
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(20, 20, 20, 0.75);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.time-meeting-schedule .card-height {
+    height: calc(100vh - 110px);
+    overflow-y: auto;
+}
+
+.time-meeting-schedule ol li {
+    margin-bottom: 0.5rem;
+}
+
+.time-meeting-schedule .table th,
+.time-meeting-schedule .table td {
+    background-color: transparent;
+    color: #fff;
+    font-weight: 600;
+}
+
+.time-meeting-schedule .table td.team1 {
+    color: #62a2ff;
+}
+
+.time-meeting-schedule .table td.team2 {
+    color: #a56eff;
+}
+
+.time-meeting-schedule .table td.team3 {
+    color: #ff78f0;
+}
+
+.time-meeting-schedule .table td.team4 {
+    color: #8eff52;
+}
+
+.time-meeting-schedule .table td.team5 {
+    color: #dc3545;
+}
+
+.time-meeting-schedule .table td.team6 {
+    color: #fd7e14;
+}
+
+.time-meeting-schedule .table td.team7 {
+    color: #ffc107;
+}
+
+.time-meeting-schedule .table td.team8 {
+    color: #fffb6e;
+}
+
+.time-meeting-schedule .table td.team9 {
+    color: #20c997;
+}
+
+.time-meeting-schedule .table td.team10 {
+    color: #0dcaf0;
+}
+
+.time-meeting-schedule .table td.team11 {
+    color: #9dc4e7;
+}
+
+.time-meeting-schedule .table td.team12 {
+    color: #ffc107;
+}
+
+.time-meeting-schedule .table td.team13 {
+    color: #dc3545;
+}
+
+.scrollbar {
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overscroll-behavior: contain;
+    scrollbar-color: #989ea6 transparent;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+}
+
+.scrollbar:hover::-webkit-scrollbar,
+.scrollbar:hover::-webkit-scrollbar-thumb,
+.scrollbar:hover:focus::-webkit-scrollbar,
+.scrollbar:hover:focus::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+.scrollbar::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: transparent;
+    height: 0.375rem;
+    visibility: hidden;
+    width: 0.375rem;
+}
+
+.scrollbar::-webkit-scrollbar-button,
+.scrollbar::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.scrollbar::-webkit-scrollbar-button,
+.scrollbar::-webkit-scrollbar-corner {
+    display: none;
+}
+
+.scrollbar:hover::-webkit-scrollbar,
+.scrollbar:hover::-webkit-scrollbar-thumb,
+.scrollbar:hover:focus::-webkit-scrollbar,
+.scrollbar:hover:focus::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: hsla(214, 7%, 62%, .4);
+    border-radius: 3px;
+    visibility: hidden;
 }

@@ -1,0 +1,254 @@
+[
+  {
+    "TeamName": "Vasota Wolves",
+    "Owner": "Ravindra Salunkhe",
+    "Mentor": "Amar Gaikwad",
+    "TeamSize": 8,
+    "TeamMembers": [
+      "Saurabh Khedkar",
+      "Jayesh Bharat Sonawane",
+      "Uddhav Bade",
+      "Siddhesh Gophane",
+      "Tejas Santosh Phalke",
+      "Mapari Shrutika Sanjeev",
+      "Ajinkya Vikas Mali",
+      "Kiran Mahadev Mane"
+    ],
+    "PrimaryDomain": "Functional & Mobile App Development",
+    "Overview": "Vasota Wolves are a well-balanced team that unites structured business analysis with creative design thinking. The team thrives on collaboration and clarity, guided by Ravindra’s analytical precision and Amar’s strong sense of user-centered design. Their approach ensures that every module or feature begins with a well-defined problem statement and ends with a visually intuitive outcome. They demonstrate strong planning discipline, open communication, and an instinct for simplifying complex workflows into user-friendly solutions.",
+    "Strengths": "The team’s primary strength lies in their synergy between business logic and design sensibility. They excel in creating systems that are not only functional but also delightful to use. They have a deep understanding of requirements management, user personas, and visual design patterns. Their members are versatile, capable of adapting quickly to both web and mobile development contexts. The mentoring from a seasoned UI/UX designer brings an aesthetic consistency that sets their work apart, while the owner’s analytical mindset ensures that form never overtakes function.",
+    "Weaknesses": "Their limited backend engineering experience may restrict scalability or integration-heavy projects. They occasionally spend more time on polishing interfaces than optimizing data structures or backend logic. Their testing cycles are primarily manual, which could lead to regression errors in larger releases. Additionally, the team’s creative strengths can sometimes lead to extended iteration phases if project boundaries are not tightly managed.",
+    "PredictedExcellenceArea": "Vasota Wolves are expected to excel in projects that require both usability and logical depth—such as enterprise dashboards, workflow automation tools, and mobile-first internal applications. Their balanced composition makes them ideal for functional prototypes that need immediate adoption within an organization."
+  },
+  {
+    "TeamName": "Sinhagad Lions",
+    "Owner": "Shital Borate",
+    "Mentor": "Vikas Chavan",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Anushri Bhoite",
+      "Adi Khutwad",
+      "Yogesh Jadhav",
+      "Rutvik Kalamkar",
+      "Vaibhav Dokhale",
+      "Pramod Gagare"
+    ],
+    "PrimaryDomain": "Web & Application Development",
+    "Overview": "Sinhagad Lions are methodical problem solvers who combine business clarity with technical precision. Led by Shital, they bring a strong focus on documentation, process alignment, and ensuring that user needs translate directly into structured development. With Vikas’s technical mentoring, they execute projects with dependable backend architectures and maintain robust code quality standards.",
+    "Strengths": "This team excels at bridging communication between business requirements and technical implementation. They have clear ownership of deliverables and excel in modular project planning. The mentor’s backend expertise strengthens their capability to develop secure, data-driven systems, while Shital’s business acumen keeps them aligned with functional expectations. Their disciplined communication flow and understanding of enterprise logic ensure reliability in delivery.",
+    "Weaknesses": "Their limited creative design exposure makes UI/UX-heavy projects more challenging. The team relies heavily on predefined design frameworks, which can restrict their flexibility in presentation. They may also face constraints when quick front-end iterations or visual refinements are required. Testing and QA may need external support to maintain production quality.",
+    "PredictedExcellenceArea": "Sinhagad Lions are likely to shine in projects requiring process clarity, data accuracy, and backend robustness—such as ERP modules, HR management systems, or structured enterprise portals where stability and correctness are critical."
+  },
+  {
+    "TeamName": "Torna Titans",
+    "Owner": "Shubham Kharche (QA)",
+    "Mentor": "Amar Raut (Business Analyst)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Snehal Nikhil Shinde",
+      "Ashish Itware ",
+      "Rohit Pawar",
+      "Suraj Shivlal Rathod",
+      "Mohit kamble",
+      "Prathamesh Katkar"
+    ],
+    "PrimaryDomain": "Full Stack & Application Development",
+    "Overview": "Torna Titans demonstrate discipline, focus, and methodical progress tracking. As a QA-led team, they bring an uncommon attention to quality and validation, ensuring their outputs are reliable and production-ready. Amar’s guidance in business alignment complements this by ensuring each test case and deliverable has direct business relevance. Their structured mindset makes them dependable and consistent under deadlines.",
+    "Strengths": "The team excels at test-driven development, ensuring that bugs are caught early in the cycle. Their documentation and reporting standards are exceptional. The QA-owner mindset ensures precision and validation across all workflows. They possess strong communication discipline and have a mature sense of responsibility toward delivery timelines. This reliability makes them a key team for high-stakes modules.",
+    "Weaknesses": "They may struggle with innovation in design or rapid prototyping. Their methodical pace, while reliable, can sometimes reduce adaptability to quick change requests. Creative ideation sessions might need external input to spark variety in solutions. Their dependency on predefined workflows may also slow response in agile experiments.",
+    "PredictedExcellenceArea": "Torna Titans will excel in quality assurance frameworks, test automation modules, and stable system deployments. Their strength lies in reducing production defects and ensuring reliability of multi-user environments."
+  },
+  {
+    "TeamName": "Pratapgad Panthers",
+    "Owner": "Rohit Kokkul (QA)",
+    "Mentor": "Ajay Punde (QA)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Komal Vitthal Dhekale",
+      "Pranav Mane",
+      "Sanket Sudarshan Panchmind",
+      "Sachin Chougule",
+      "Dnyaneshwar Ghadge",
+      "Prajakta Narayan Kambale"
+    ],
+    "PrimaryDomain": "Web & Functional Development",
+    "Overview": "Pratapgad Panthers are a precision-focused QA team that prioritizes stability, validation, and accuracy above all else. With both owner and mentor coming from a testing background, their leadership ensures adherence to process, test coverage, and structured reporting. Their approach guarantees product reliability, even in complex multi-feature environments.",
+    "Strengths": "They bring exceptional rigor in test design and process documentation. The team’s members are adept at identifying performance and usability gaps early. Their coordination and communication style create smooth handoffs between functional and dev teams. They also have excellent root-cause analysis capabilities, making them effective in post-release monitoring.",
+    "Weaknesses": "Their technical scope outside QA is limited, making them dependent on other teams for development. They may not be as comfortable leading UI innovation or architectural discussions. Their progress pace tends to be linear, as they prefer sequential validation over parallel feature development.",
+    "PredictedExcellenceArea": "Pratapgad Panthers will excel in regression testing, integration validation, and maintaining production reliability. They are the quality backbone in multi-team collaborations where cross-verification is key."
+  },
+  {
+    "TeamName": "Raigad Tech Sainiks",
+    "Owner": "Navin Boddhul (UI Developer)",
+    "Mentor": "Sham Jadhav (Angular, React Developer)",
+    "TeamSize": 7,
+    "TeamMembers": [
+      "Avinash Dnyanoba Rathod",
+      "Nitin R ghorpade",
+      "Ashish Chaudhari",
+      "Pratiksha Pratap Chavan",
+      "Shilpa Ahire",
+      "Rushikesh Rajendra Jagadale",
+      "Rohan Chandrakant kashelkar"
+    ],
+    "PrimaryDomain": "Frontend & Web Development",
+    "Overview": "Raigad Tech Sainiks are an innovation-focused team passionate about building intuitive and interactive user interfaces. Under Navin’s creative leadership and Sham’s modern framework expertise, they have a deep understanding of how technology can enhance user experience. They prioritize responsive design, cross-browser consistency, and visual storytelling in every project they undertake.",
+    "Strengths": "The team’s major strengths include mastery over front-end frameworks like React and Angular, clean code organization, and pixel-perfect UI implementation. They maintain a keen eye for detail, ensuring performance optimization and accessibility standards. The mentor’s experience ensures best practices in component reusability and scalability. Their collaborative and design-first mindset produces visually cohesive, technically sound products.",
+    "Weaknesses": "They have limited backend and API integration experience, which could limit their ability to deliver full-stack solutions independently. Their focus on perfection sometimes leads to longer delivery times. Additionally, data management and state handling at large scale may require additional architectural guidance.",
+    "PredictedExcellenceArea": "Raigad Tech Sainiks are expected to excel in building highly interactive dashboards, responsive SPAs, and web portals that prioritize user experience, design uniformity, and front-end scalability."
+  },
+  {
+    "TeamName": "Panhala Predators",
+    "Owner": "Amrut Ghatage (Android App Developer)",
+    "Mentor": "Pramod Patil (Project Manager)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Vaibhav S. Wakode",
+      "Pramod Bhamare",
+      "Sonali Sanjay Patil",
+      "Suraj Babasaheb yadav",
+      "Sachin Balaji Gardi",
+      "Rutuja Prakash Jadhav"
+    ],
+    "PrimaryDomain": "Mobile & Web Application Development",
+    "Overview": "Panhala Predators are driven by energy, focus, and structured delivery. The combination of Amrut’s deep technical expertise in Android and Pramod’s managerial guidance makes them a results-oriented team. They follow clear execution plans and often deliver ahead of schedule while maintaining development quality. Their mobile-centric thinking allows them to bring strong usability and performance together.",
+    "Strengths": "They possess excellent Android app design and implementation skills, well-defined communication practices, and a sharp eye for project prioritization. The mentor’s project management discipline gives the team predictability and consistency in delivery. Their adaptability to cross-platform tools ensures flexibility across devices. They are capable of rapid prototyping and can scale features based on evolving requirements.",
+    "Weaknesses": "Backend data handling and DevOps processes remain developing areas. The team occasionally faces challenges when integrating third-party APIs or managing large-scale databases. Their test coverage could improve with automation and CI/CD integration. Their focus on execution sometimes limits deeper architectural exploration.",
+    "PredictedExcellenceArea": "Panhala Predators are positioned to excel in mobile app innovation, especially Android-based business tools, hybrid solutions, and interactive client-facing mobile experiences where stability and UI quality matter most."
+  },
+  {
+    "TeamName": "Devgiri Warriors",
+    "Owner": "Prasad Pathak (ASP.NET Core Backend Developer)",
+    "Mentor": "Vishal Singh (Angular, React, NodeJS Developer)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      " Shivanjali Babar",
+      "Abhijeet Kotkar",
+      "Kashmira Nitin Patil",
+      "Suraj Akil Atar",
+      "Omkar Bhagwat Suryawanshi",
+      "Vishwas Gaikwad"
+    ],
+    "PrimaryDomain": "Web Application & API Engineering",
+    "Overview": "Devgiri Warriors combine solid backend engineering with full-stack adaptability. Prasad provides deep experience in .NET and database structure design, while Vishal complements this with expertise in frontend technologies and NodeJS integration. The result is a technically balanced team capable of taking ownership of end-to-end delivery. They are process-aware, organized, and thrive in system architecture discussions. Their ability to translate business requirements into scalable technical flows gives them an edge in building multi-layered solutions.",
+    "Strengths": "This team’s standout strength is their complete technology coverage—handling both backend and frontend components fluently. Their architecture-first approach ensures maintainability, code reusability, and stability. They have a structured development process with a strong focus on modularization, clean code, and API consistency. Their mentor’s expertise ensures they stay aligned with modern full-stack practices and deployment standards.",
+    "Weaknesses": "Their backend-first mindset sometimes delays the visual refinement phase. UI responsiveness and design cohesion could benefit from closer UX collaboration. The team could also enhance their automation pipeline and CI/CD familiarity for faster deployments. Their project planning stages can be slightly prolonged due to detail-oriented architecture discussions.",
+    "PredictedExcellenceArea": "Devgiri Warriors are predicted to excel in full-stack enterprise systems, large-scale data-driven applications, and integrated web services where robust architecture and stable performance are paramount."
+  },
+  {
+    "TeamName": "Vijaydurgh Winners",
+    "Owner": "Jagdish Kore (Business Analyst)",
+    "Mentor": "Pankaj Gadkar (Business Analyst)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Vaibhav Jadhav",
+      "Pooja Jagtap",
+      "Vaishali Bapu Borate",
+      "Sakshi Bhosale",
+      "Anjali Shivnath Jadhav",
+      "Aakash Dandge"
+    ],
+    "PrimaryDomain": "Functional & Web Development",
+    "Overview": "Vijaydurgh Winners stand out for their meticulous process adherence and analytical depth. With dual business analysts in leadership, their approach is documentation-driven and functionally comprehensive. They excel in planning, requirement mapping, and stakeholder alignment. Every feature they deliver is backed by detailed process understanding, which makes them reliable for structured enterprise environments.",
+    "Strengths": "The team’s strengths lie in detailed documentation, accurate requirement translation, and efficient project governance. Their structured sprint planning minimizes ambiguity. They maintain close communication with developers and testers, ensuring consistency in expected outcomes. They are exceptionally good at managing dependencies between modules and handling user acceptance processes with precision.",
+    "Weaknesses": "Their limited technical exposure can create dependencies on external developer teams. Creativity in UI/UX or quick prototyping is not their strong suit. They can sometimes overanalyze simple requirements, leading to slower start cycles. Their delivery rhythm benefits most when paired with technically driven collaborators.",
+    "PredictedExcellenceArea": "Vijaydurgh Winners will excel in requirement gathering, documentation-heavy modules, and product coordination roles that bridge business and technical teams effectively."
+  },
+  {
+    "TeamName": "Rajgad Innovators",
+    "Owner": "Nikhil Shinde (ASP.NET Core Backend Developer)",
+    "Mentor": "Abhijit Shinde (Project Architect, ASP.NET Core Developer)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Rakesh Noothi",
+      "Vrushali Sandip Patil",
+      "Vinay Mithari",
+      "Shivani Tanaji Jadhav",
+      "Neha Sathe",
+      "Shripad Balkrishna Phadnis"
+    ],
+    "PrimaryDomain": "Full Stack & QA",
+    "Overview": "Rajgad Innovators are the technical powerhouses of the competition. Nikhil’s backend proficiency and Abhijit’s architectural expertise together form a strong base for scalable, high-performance applications. They bring structure, foresight, and consistency to their solutions. Their focus is not only on solving problems but on creating frameworks that can be reused across projects.",
+    "Strengths": "Their ability to design, architect, and execute complex systems efficiently is unmatched. They think strategically and build for scalability and maintainability. They are disciplined in code versioning, environment setup, and adherence to design patterns. Their structured technical leadership ensures team-wide consistency and future-readiness.",
+    "Weaknesses": "Their focus on structure and optimization can slow down creative experimentation. They rely on other teams for front-end and design support. Their systems tend to be over-engineered for smaller tasks, consuming more setup time. Occasional communication bottlenecks arise when discussing non-technical aspects.",
+    "PredictedExcellenceArea": "Rajgad Innovators will excel in backend frameworks, middleware architecture, API ecosystems, and cross-service orchestration for enterprise-grade solutions."
+  },
+  {
+    "TeamName": "Shivneri Brigade",
+    "Owner": "Komal Ahirekar (UI Developer)",
+    "Mentor": "Shivprasad Murgude (Angular, React Developer)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Sanjay Gorakh Kure",
+      "Mohammad Sagari",
+      "Yadav Aniket Kundlik",
+      "Prasad Shirsat",
+      "Subham Jena",
+      "Sudarshan Vitthal More"
+    ],
+    "PrimaryDomain": "Web Development & Testing",
+    "Overview": "Shivneri Brigade is a visually driven team that values structure and design precision. With Komal’s leadership in UI design and Shivprasad’s technical direction in front-end development, they consistently produce clean, modular, and responsive web applications. The team’s culture is built on continuous improvement and feedback-based refinement, ensuring consistency across all visual components.",
+    "Strengths": "They have deep knowledge of Angular and React frameworks, allowing for reusable UI component development. Their design sensibility ensures accessibility and responsiveness across screen types. They follow modern UI standards and are known for smooth integrations with backend APIs. Their agile adaptability and focus on delivering polished, test-ready builds enhance overall stability.",
+    "Weaknesses": "The team has limited experience with backend scaling or heavy data integration. They can also struggle with DevOps or cloud-based deployment processes. Their strong design focus can lead to slower early iterations when back-end dependencies are still forming. Automation in testing can also be strengthened.",
+    "PredictedExcellenceArea": "Shivneri Brigade is predicted to excel in high-impact front-end web development, modular component systems, and UI/UX-led interface revamps that prioritize performance and accessibility."
+  },
+  {
+    "TeamName": "Vishalgad Vipers",
+    "Owner": "Soham Jagtap (AI/ML)",
+    "Mentor": "Vijay Kore (ASP.NET Core Developer)",
+    "TeamSize": 7,
+    "TeamMembers": [
+      "Sanket Ghorpade",
+      "Dadasaheb Balu Raut",
+      "Omkar Torase",
+      "Siddharth Yashwant Thorat",
+      "Amit Kumar Sahoo",
+      "Abhishek A Deshmukh",
+      "Avantika Gholve"
+    ],
+    "PrimaryDomain": "Mobile & Web Application Development",
+    "Overview": "Vishalgad Vipers bring innovation and data intelligence to the competition. Soham’s background in AI/ML adds a futuristic edge, while Vijay ensures technical discipline in backend integration. Their projects typically stand out for combining predictive logic with real-world usability. They approach problems analytically and experiment boldly while maintaining structural coherence through solid mentorship.",
+    "Strengths": "Their capacity to integrate AI features into traditional applications gives them a unique differentiator. They are comfortable with algorithms, pattern analysis, and decision-support tools. The mentor’s backend skill ensures that data flows and models integrate seamlessly. The team’s curiosity and experimental approach keep them ahead of trends.",
+    "Weaknesses": "Limited real-world deployment experience with AI models could affect scalability and optimization. They occasionally struggle with refining complex algorithms for production. Their focus on experimentation can sometimes lead to incomplete documentation or missed edge-case handling.",
+    "PredictedExcellenceArea": "Vishalgad Vipers will excel in predictive analytics, smart dashboards, and decision automation systems that combine AI with enterprise workflows."
+  },
+  {
+    "TeamName": "Lohgad Alphas",
+    "Owner": "Umesh Pawar (React Developer)",
+    "Mentor": "Prashant Nashte (Business Analyst)",
+    "TeamSize": 6,
+    "TeamMembers": [
+      "Siddhi Hemant Lawand",
+      "Pranav Ausekar",
+      "Sagar More",
+      "Suraj Vinod Ingale",
+      "Jivraj Kashid",
+      "Hemangi Jadhav"
+    ],
+    "PrimaryDomain": "Web Development & Data Reporting",
+    "Overview": "Lohgad Alphas merge analytical guidance with technical agility. Umesh’s React expertise allows the team to design responsive and performance-oriented interfaces, while Prashant’s analytical mentorship keeps the project aligned with business logic. This team thrives on clarity, clean design, and functional impact. They deliver quickly without compromising readability or data presentation quality.",
+    "Strengths": "They excel in turning complex datasets into understandable interfaces. Their codebase is clean and modular, allowing rapid updates and refactors. The combination of business insight and front-end expertise results in data-driven user experiences. Their sprint speed and technical focus are consistent and predictable.",
+    "Weaknesses": "Limited backend expertise may require support in API or data management. The team sometimes underestimates testing needs, focusing more on visuals and functionality. Their QA process could benefit from more automation and documentation discipline.",
+    "PredictedExcellenceArea": "Lohgad Alphas will excel in analytics dashboards, visualization tools, and reporting modules where clean data presentation and front-end performance define success."
+  },
+  {
+    "TeamName": "Janjira Jaguars",
+    "Owner": "Bhaskar Dhasade (Business Analyst)",
+    "Mentor": "Devendra Dighe (ASP.NET Core Backend Developer)",
+    "TeamSize": 7,
+    "TeamMembers": [
+      "Abhishek Gogawale",
+      "Raviraj Katkar",
+      "Prakhar Pande",
+      "Somnath Arjun Khabale",
+      "Sakshi Vikas Ghorpade",
+      "Viraj Jagtap",
+      "Chaitali Ghadage"
+    ],
+    "PrimaryDomain": "Web Application Development",
+    "Overview": "Janjira Jaguars are dependable, structured, and consistent performers. With Bhaskar leading business alignment and Devendra ensuring technical execution, they maintain a steady rhythm in their project cycles. They are known for stability, process adherence, and long-term maintainability. The team’s maturity allows them to handle complex deliverables calmly and systematically.",
+    "Strengths": "They excel at communication, requirement documentation, and backend coordination. Their ability to stay aligned with business goals ensures fewer revisions and greater stakeholder satisfaction. They manage complexity well and maintain delivery quality even under tight timelines. Their disciplined approach minimizes project risks.",
+    "Weaknesses": "Their innovation pace is moderate, and they may depend on others for creative design inputs. They are less experimental in emerging frameworks. Their QA cycles, though thorough, can be manually intensive. The team can sometimes be overly cautious with change adoption.",
+    "PredictedExcellenceArea": "Janjira Jaguars are poised to excel in long-term enterprise systems, maintenance projects, and stable backend-centric web applications that demand reliability and structured delivery."
+  }
+]
