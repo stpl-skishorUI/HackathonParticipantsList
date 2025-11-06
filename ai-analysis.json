@@ -41,8 +41,8 @@
   },
   {
     "TeamName": "Torna Titans",
-    "Owner": "Shubham Kharche (QA)",
-    "Mentor": "Amar Raut (Business Analyst)",
+    "Owner": "Shubham Kharche",
+    "Mentor": "Amar Raut",
     "TeamSize": 6,
     "TeamMembers": [
       "Snehal Nikhil Shinde",
@@ -60,8 +60,8 @@
   },
   {
     "TeamName": "Pratapgad Panthers",
-    "Owner": "Rohit Kokkul (QA)",
-    "Mentor": "Ajay Punde (QA)",
+    "Owner": "Rohit Kokkul",
+    "Mentor": "Ajay Punde",
     "TeamSize": 6,
     "TeamMembers": [
       "Komal Vitthal Dhekale",
@@ -79,8 +79,8 @@
   },
   {
     "TeamName": "Raigad Tech Sainiks",
-    "Owner": "Navin Boddhul (UI Developer)",
-    "Mentor": "Sham Jadhav (Angular, React Developer)",
+    "Owner": "Navin Boddhul",
+    "Mentor": "Sham Jadhav",
     "TeamSize": 7,
     "TeamMembers": [
       "Avinash Dnyanoba Rathod",
@@ -99,8 +99,8 @@
   },
   {
     "TeamName": "Panhala Predators",
-    "Owner": "Amrut Ghatage (Android App Developer)",
-    "Mentor": "Pramod Patil (Project Manager)",
+    "Owner": "Amrut Ghatage",
+    "Mentor": "Pramod Patil",
     "TeamSize": 6,
     "TeamMembers": [
       "Vaibhav S. Wakode",
@@ -118,8 +118,8 @@
   },
   {
     "TeamName": "Devgiri Warriors",
-    "Owner": "Prasad Pathak (ASP.NET Core Backend Developer)",
-    "Mentor": "Vishal Singh (Angular, React, NodeJS Developer)",
+    "Owner": "Prasad Pathak",
+    "Mentor": "Vishal Singh",
     "TeamSize": 6,
     "TeamMembers": [
       " Shivanjali Babar",
@@ -137,8 +137,8 @@
   },
   {
     "TeamName": "Vijaydurgh Winners",
-    "Owner": "Jagdish Kore (Business Analyst)",
-    "Mentor": "Pankaj Gadkar (Business Analyst)",
+    "Owner": "Jagdish Kore",
+    "Mentor": "Pankaj Gadkar",
     "TeamSize": 6,
     "TeamMembers": [
       "Vaibhav Jadhav",
@@ -156,8 +156,8 @@
   },
   {
     "TeamName": "Rajgad Innovators",
-    "Owner": "Nikhil Shinde (ASP.NET Core Backend Developer)",
-    "Mentor": "Abhijit Shinde (Project Architect, ASP.NET Core Developer)",
+    "Owner": "Nikhil Shinde",
+    "Mentor": "Abhijit Shinde",
     "TeamSize": 6,
     "TeamMembers": [
       "Rakesh Noothi",
@@ -175,8 +175,8 @@
   },
   {
     "TeamName": "Shivneri Brigade",
-    "Owner": "Komal Ahirekar (UI Developer)",
-    "Mentor": "Shivprasad Murgude (Angular, React Developer)",
+    "Owner": "Komal Ahirekar",
+    "Mentor": "Shivprasad Murgude",
     "TeamSize": 6,
     "TeamMembers": [
       "Sanjay Gorakh Kure",
@@ -194,8 +194,8 @@
   },
   {
     "TeamName": "Vishalgad Vipers",
-    "Owner": "Soham Jagtap (AI/ML)",
-    "Mentor": "Vijay Kore (ASP.NET Core Developer)",
+    "Owner": "Soham Jagtap",
+    "Mentor": "Vijay Kore",
     "TeamSize": 7,
     "TeamMembers": [
       "Sanket Ghorpade",
@@ -214,8 +214,8 @@
   },
   {
     "TeamName": "Lohgad Alphas",
-    "Owner": "Umesh Pawar (React Developer)",
-    "Mentor": "Prashant Nashte (Business Analyst)",
+    "Owner": "Umesh Pawar",
+    "Mentor": "Prashant Nashte",
     "TeamSize": 6,
     "TeamMembers": [
       "Siddhi Hemant Lawand",
@@ -233,8 +233,8 @@
   },
   {
     "TeamName": "Janjira Jaguars",
-    "Owner": "Bhaskar Dhasade (Business Analyst)",
-    "Mentor": "Devendra Dighe (ASP.NET Core Backend Developer)",
+    "Owner": "Bhaskar Dhasade",
+    "Mentor": "Devendra Dighe",
     "TeamSize": 7,
     "TeamMembers": [
       "Abhishek Gogawale",

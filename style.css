@@ -317,6 +317,71 @@ body {
     padding: 10px;
 }
 
+.ai-analysis .team-size {
+    font-size: 1.45rem;
+    font-weight: 600;
+}
+
+.ai-analysis .nav-pills .nav-link {
+    padding: 10px;
+    font-size: 0.85rem;
+    color: #858585;
+    border-bottom: solid 3px transparent;
+    border-radius: 0;
+}
+
+.ai-analysis .nav-pills .nav-link.active {
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+    border-bottom: solid 3px var(--bs-info);
+}
+
+.ai-analysis .list-group-item {
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(20, 20, 20, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: #fff;
+}
+
+.ai-analysis .card.main-card {
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(20, 20, 20, 0.75);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+    color: #fff;
+}
+
+.ai-analysis .card.card-section {
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(20, 20, 20, 0.5);
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+    color: #fff;
+}
+
+.ai-analysis .card.card-section .card-body {
+    line-height: 1.8rem;
+    font-size: 0.95rem;
+}
+
+.ai-analysis .member-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--bs-info);
+}
+
+.ai-analysis .member-role {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--bs-white);
+}
+
 .ai-analysis .member-photo {
     width: 50px;
     height: 50px;
